@@ -1,6 +1,8 @@
 ﻿body {
 	background: green;
 	color: green;
+	font-family: Terminal ;
+	font-size: 170%;
 }
 #menu{
  color: white;
@@ -12,7 +14,7 @@
 }
 #content{
 	height: 300px;
-	color: white;
+	color: black;
 	overflow: auto;
 }
 .well{
