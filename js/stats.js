@@ -9,8 +9,8 @@ var moneyTypes = [
 
 function moneyInit(wMoney,bMoney){
 
- $("#money").text("Money :$ "  + wMoney);
- $("#dMoney").text("Dirty Money :$$ " + bMoney);
+ $("#money").text("Money :$"  + wMoney);
+ $("#dMoney").text("Dirty Money :$$" + bMoney);
 }
 $(document).ready(function(){
 	moneyInit(wMoney, bMoney);
