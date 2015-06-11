@@ -3,8 +3,8 @@ var money = function(name,value){
 	this.value = value;
 }
 var moneyTypes = [
-	whiteMoney = new money('whiteMoney', 100),
-	blackMoney = new money('blackMoney', 0)
+	wMoney = new money('whiteMoney', 100),
+	bMoney = new money('blackMoney', 0)
 ]
 
 function moneyInit(wMoney,bMoney){

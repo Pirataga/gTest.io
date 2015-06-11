@@ -1,22 +1,45 @@
-﻿body {
-	background: green;
+body {
+	background-image: url(../img/wallpp.jpg);
+	background-size: 100%;
 	color: green;
-	font-family: Terminal ;
+	font-family: 'italic' ;
 	font-size: 170%;
+
+}
+::-webkit-scrollbar{
+	
+}
+::-webkit-scrollbar-thumb{
+	border-width: 1px 1px 1px 2px
 }
 #menu{
- color: white;
- background-color: black;
+ color: black;
  padding-top: 2px;
  padding-bottom: 2px; 
  border-right: solid 1px blue; 
-
+ text-transform: uppercase;
+}
+.tab-content > div > div{
+	color: white;
+	background:black;
+	text-transform: uppercase;
+}
+.disabled{
+}
+.nav-pills>li.active>a, 
+.nav-pills>li.active>a:hover, 
+.nav-pills>li.active>a:focus{
+	color: black;
 }
 #content{
 	height: 300px;
 	color: black;
-	overflow: auto;
+	overflow-y: scroll;
 }
 .well{
 	color: black;
+	font-family: "italic" !important;
+}
+.progress-bar{
+	transition:0s;
 }
